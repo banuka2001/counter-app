@@ -1,0 +1,49 @@
+body{
+    background-image: url(/Images/station.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: counter;
+
+}
+
+@font-face {
+    src: url(/Fonts/good\ times\ rg.otf);
+    font-family: counter;
+}
+
+.buttons {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+}
+
+
+#count {
+    margin: 20px auto;
+    font-size: 30pt;
+}
+
+
+.INCREMENT , .SAVE {
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 2px 20px 2px 20px;
+    border-radius: 10px;
+    border: none;
+
+    color: white;
+
+   
+}
+
+h1 {
+    font-size: 30pt;
+}
+
+p {
+    font-size: 22pt;
+}
